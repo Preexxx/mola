@@ -203,6 +203,8 @@ h1, h2 { text-wrap: balance; }
 .field { display: flex; flex-direction: column; gap: 8px; }
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .field label { font-size: 14px; color: var(--muted); }
+.field-optional { color: var(--faint); font-weight: 400; }
+.field textarea { resize: vertical; min-height: 96px; font-family: inherit; }
 .field input[type="text"],
 .field input[type="tel"],
 .field input[type="email"],
