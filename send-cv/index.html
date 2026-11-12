@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Send your CV — Mola Agency</title>
+<meta name="description" content="Send your CV to Mola Agency and we'll get in touch to discuss roles and projects that fit your experience.">
+<link rel="canonical" href="https://mola-agency.com/send-cv/">
+<link rel="alternate" hreflang="en" href="https://mola-agency.com/send-cv/">
+<link rel="alternate" hreflang="uk" href="https://mola-agency.com/uk/send-cv/">
+<link rel="alternate" hreflang="x-default" href="https://mola-agency.com/send-cv/">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/jpeg" href="../assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body style="margin:0">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="arrow" viewBox="0 0 20 20"><path d="M6 14 14 6M7.5 6H14v6.5"/></symbol>
+</svg>
+
+<header class="band">
+  <div class="wrap">
+    <nav class="nav">
+      <a href="../" class="wordmark" aria-label="Mola Agency home"><span class="wordmark-main">Mola</span><span class="wordmark-sub">Agency</span></a>
+      <div class="nav-links">
+        <a href="../#developers">For developers</a>
+        <a href="../#companies">For companies</a>
+        <a href="../#contact">Contact</a>
+        <a class="lang-switch" href="../uk/send-cv/" hreflang="uk" lang="uk">UA</a>
+        <svg class="arrow" width="20" height="20" aria-hidden="true"><use href="#arrow" stroke-width="1.5"/></svg>
+      </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu" data-label-open="Open menu" data-label-close="Close menu">
+        <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
+          <path d="M3 6h16M3 11h16M3 16h16"/>
+        </svg>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="../#developers">For developers</a>
+      <a href="../#companies">For companies</a>
+      <a href="../#contact">Contact</a>
+      <a href="../uk/send-cv/" hreflang="uk" lang="uk">Українською</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="band">
+    <div class="wrap">
+      <div class="page-head">
+        <a class="back-link" href="../">
+          <svg class="arrow" width="16" height="16" viewBox="0 0 20 20" aria-hidden="true"><use href="#arrow" stroke-width="1.8"/></svg>
+          Back to home
+        </a>
+        <h1 class="page-title">Send your CV</h1>
+        <p class="page-lede">Tell us a bit about yourself and attach your CV. We'll get in touch to discuss whether we can help you find a suitable role or project.</p>
+      </div>
+
+      <div class="form-wrap">
+        <form class="form" id="lead-form" action="https://formsubmit.co/mola@mola-agency.com" method="POST" enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value="New CV submission — Mola Agency">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://mola-agency.com/send-cv/?sent=1">
+          <input type="hidden" name="source" value="send-cv (en)">
+
+          <div class="field-row">
+            <div class="field">
+              <label for="first_name">First name</label>
+              <input type="text" id="first_name" name="first_name" placeholder="Jane" required>
+            </div>
+            <div class="field">
+              <label for="last_name">Last name</label>
+              <input type="text" id="last_name" name="last_name" placeholder="Doe" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+380 00 000 0000" required>
+          </div>
+
+          <div class="field">
+            <label for="telegram">Telegram</label>
+            <input type="text" id="telegram" name="telegram" placeholder="@username">
+          </div>
+
+          <div class="field">
+            <label for="cv">CV</label>
+            <label class="file-field" for="cv">
+              <span>Choose file</span> No file chosen — PDF or Word, up to 10 MB
+              <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+            </label>
+          </div>
+
+          <button class="btn form-submit" type="submit">Send CV
+            <svg class="arrow" width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><use href="#arrow" stroke-width="1.8"/></svg></button>
+          <p class="form-note">By submitting, you agree that Mola Agency may contact you about relevant roles.</p>
+        </form>
+
+        <div class="form-success" id="form-success">
+          <h2 class="section-title">Thanks — we've got it.</h2>
+          <p class="body">We'll review your CV and get back to you if there's a fit. In the meantime, feel free to head back to the homepage.</p>
+          <a class="btn btn--ghost" href="../">Back to home
+            <svg class="arrow" width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><use href="#arrow" stroke-width="1.8"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="../js/nav.js"></script>
+<script src="../js/form.js"></script>
+</body>
+</html>

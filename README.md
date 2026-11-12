@@ -27,4 +27,12 @@
 
 ## Контакт
 
-- Усі CTA («Send your CV», «Discuss a project») і контактне посилання ведуть на `mailto:mola@mola-agency.com`.
+- Контактне посилання в секції Contact веде на `mailto:mola@mola-agency.com`.
+- Кнопки «Send your CV» і «Discuss a project» відкривають окремі форми: `/send-cv/`, `/discuss-project/` (і їхні UA-версії `/uk/send-cv/`, `/uk/discuss-project/`).
+
+## Форми (Send CV / Discuss a project)
+
+- Поля: ім'я, прізвище, телефон, телеграм; на сторінці CV додатково — файл (PDF/Word, до 10 МБ).
+- Відправка йде через [FormSubmit](https://formsubmit.co/) напряму на `mola@mola-agency.com`, без бекенду.
+- **Важливо:** перше повідомлення з нового домену FormSubmit надсилає на `mola@mola-agency.com` лист з підтвердженням («Activate Form») — тре клацнути один раз, інакше наступні заявки не доходитимуть.
+- Після відправки форма показує повідомлення "Дякуємо" на тій самій сторінці (через `?sent=1` і `js/form.js`), без переходу на сторонній сайт.
