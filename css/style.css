@@ -188,6 +188,9 @@ h1, h2 { text-wrap: balance; }
 
 /* Responsive */
 /* Form pages (send-cv / discuss-project) */
+.form-layout { display: flex; gap: 64px; align-items: flex-start; overflow: hidden; }
+.form-layout .form-col { flex: 1 1 560px; min-width: 0; }
+.form-layout .editorial { margin-top: 88px; }
 .page-head { display: flex; flex-direction: column; gap: 20px; padding-block: 88px 64px; max-width: 680px; }
 .page-head .back-link { color: var(--muted); font-size: 15px; display: inline-flex; align-items: center; gap: 8px; }
 .page-head .back-link:hover { color: var(--fg); }
@@ -237,6 +240,8 @@ h1, h2 { text-wrap: balance; }
   .editorial { flex-basis: auto; align-self: flex-start; }
   .offering { grid-template-columns: 1fr; gap: 40px; }
   .details { flex-direction: column; gap: 32px; }
+  .form-layout { flex-direction: column; }
+  .form-layout .editorial { margin-top: 0; }
 }
 @media (max-width: 720px) {
   .nav { height: 80px; }
