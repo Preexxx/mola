@@ -202,6 +202,7 @@ h1, h2 { text-wrap: balance; }
 .field label { font-size: 14px; color: var(--muted); }
 .field input[type="text"],
 .field input[type="tel"],
+.field input[type="email"],
 .field textarea {
   background: var(--card); border: 1px solid var(--line-2); border-radius: 4px;
   padding: 14px 16px; color: var(--fg); font: inherit; font-size: 16px; width: 100%;
