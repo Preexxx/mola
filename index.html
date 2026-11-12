@@ -38,7 +38,17 @@
         <a href="#contact">Contact</a>
         <svg class="arrow" width="20" height="20" aria-hidden="true"><use href="#arrow" stroke-width="1.5"/></svg>
       </div>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
+          <path d="M3 6h16M3 11h16M3 16h16"/>
+        </svg>
+      </button>
     </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#developers">For developers</a>
+      <a href="#companies">For companies</a>
+      <a href="#contact">Contact</a>
+    </div>
   </div>
 </header>
 
@@ -187,6 +197,7 @@
   </section>
 </main>
 
+<script src="js/nav.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
