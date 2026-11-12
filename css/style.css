@@ -63,6 +63,14 @@ h1, h2 { text-wrap: balance; }
 .nav-links a { color: var(--muted); font-size: 15px; transition: color .2s; }
 .nav-links a:hover { color: var(--fg); }
 .nav-links .arrow { color: var(--accent); }
+.lang-switch {
+  border: 1px solid var(--line-3);
+  border-radius: 2px;
+  padding: 4px 8px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+.lang-switch:hover { border-color: var(--accent); color: var(--accent); }
 
 .nav-toggle {
   display: none;

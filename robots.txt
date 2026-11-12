@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mola-agency.com/sitemap.xml
