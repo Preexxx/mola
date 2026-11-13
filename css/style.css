@@ -261,6 +261,9 @@ h1, h2 { text-wrap: balance; }
   .cv { flex-direction: column; align-items: flex-start; padding: 24px; }
   .contact { padding-block: 64px 32px; gap: 56px; }
   .contact-link { flex-basis: auto; width: 100%; }
+  .editorial { max-width: 240px; margin-inline: auto; }
+  .form-layout .editorial { margin-top: 0; margin-bottom: 0; }
+  .file-field { flex-wrap: wrap; row-gap: 6px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .scan, .pulse, .scope-ring { animation: none; }
